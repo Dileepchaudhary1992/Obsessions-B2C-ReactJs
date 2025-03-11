@@ -1,0 +1,21 @@
+.quickview-box{ padding:0; margin:0;}
+.quickview-box h2 {
+    color: #312f2f;
+    font-size: 21px;
+}
+.quickview-box h3 {
+    color: #312f2f;
+    font-size:18px;
+}
+.quickview-box .zoomproduct{ padding:0; margin:0; width:100%;}
+.quickview-box .contentbox{ padding:0; margin:0 0 0 19px;}
+
+.quickview-box .amount{ text-decoration:line-through;}
+.quickview-box .dicount{ color:#F00;}
+.quickview-box .add-to-cart{    
+    width: 60%;
+    height: 39px;
+    font-size: 14px;
+     border-radius:0;
+}
+

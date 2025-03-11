@@ -1,0 +1,84 @@
+.single_search_boxed {
+    padding:0;
+    border-top:1px solid #eef0f5;
+    display:inline-block;
+    width:100%;
+} 
+.border-top-none{ border-top:none;}
+.accordion-button:after{ display:none !important;}
+.accordion-button{ padding:10px !important; border-radius:0 !important; text-transform:uppercase; font-weight:400; font-family: "Roboto", sans-serif; font-size:13px !important; border:none !important; justify-content:space-between; box-shadow:none !important; }
+.accordion-button svg { font-size: 9px; color: #F00; }
+.accordion-button:focus{ box-shadow:none !important;}
+.accordion-item{ border:none !important; }
+.accordion-button:not(.collapsed){ background-color:transparent !important; border-bottom:1px solid #dee2e6 !important;} 
+
+.form-group {
+    display: block;
+    margin-bottom:1px;
+  }
+  
+.form-group input {
+    padding: 0;
+    height: initial;
+    width: initial;
+    margin-bottom: 0;
+    display: none;
+    cursor: pointer;
+  }
+  
+.form-group label {
+    position: relative;
+    cursor: pointer;
+    font-weight:400;
+    font-family: "Roboto", sans-serif;
+    font-size: 13px;
+  }
+  
+  .form-group label:before {
+    content: '';
+    -webkit-appearance: none;
+    background-color: transparent;
+    border:2px solid #dae3ec;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), inset 0px -15px 10px -12px rgba(0, 0, 0, 0.05);
+    padding: 8px;
+    display: inline-block;
+    position: relative;
+    vertical-align: middle;
+    cursor: pointer;
+    margin-right: 5px;
+    border-radius: 2px;
+}
+.form-group label:checked + label:after{
+  background: #000;
+}
+.form-group input:checked + label:after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 4px;
+  left: 7px;
+  width: 5px;
+  height: 9px;
+  border: solid #05af78;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+}
+
+.filter-price{ padding:0;;}
+.filter-price p {
+  margin-bottom: 7px;
+  margin-top: 9px;
+  font-size: 14px;
+  border-top: 1px solid #bebdbd;
+  padding-top: 4px;
+}
+.filter-price .form-control {
+  width: 100%;
+  outline: none;
+  height:28px;
+  border-radius: 2px;
+}
+.filter-price .form-control:hover {
+ border-color:#a6a6a6;
+}
+.filter-price .form-control:focus{ box-shadow: none;}

@@ -1,0 +1,34 @@
+@media only screen and (min-width: 991px) {
+    .modal.filter-modal-mobile {
+      display: block !important;
+      opacity: 1 !important;
+      position: relative;
+      width: auto;
+      height: auto;
+      overflow: inherit;
+      z-index: 1;
+    }
+    .modal.filter-modal-mobile .modal-dialog {
+      transition: none;
+      transform: none;
+      max-width: inherit;
+      margin: 0;
+    }
+    .modal.filter-modal-mobile .modal-fullscreen {
+      width: auto;
+    }
+    .modal.filter-modal-mobile .modal-header,
+    .modal.filter-modal-mobile .modal-footer {
+      display: none;
+    }
+    .modal.filter-modal-mobile .modal-content {
+      border: none;
+      border-radius: 0;
+      background: transparent;
+    }
+    .modal.filter-modal-mobile .modal-body {
+      padding: 0;
+      overflow-y: inherit;
+    }
+  }
+      
