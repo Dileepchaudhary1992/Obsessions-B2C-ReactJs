@@ -2,12 +2,14 @@ import { useState } from "react";
 import Accordion from "react-bootstrap/Accordion";
 import { FaPlus, FaMinus } from "react-icons/fa"; 
 import '../../assets/css/filter.css';
+// import http from '../../services/api';
 
-function Category() {
+function Category(props) {
+
     const [activeKey, setActiveKey] = useState("0"); // Default open
     const handleToggle = (eventKey) => {
     setActiveKey(activeKey === eventKey ? null : eventKey);
-  }
+    }
 
   return (
     <div className="single_search_boxed border-top-none"> 
@@ -17,7 +19,11 @@ function Category() {
         Category {activeKey === "0" ? <FaMinus /> : <FaPlus />}
         </Accordion.Header>
         <Accordion.Body>
-        <form>
+
+       {categorys.map((categiry, index) => ( 
+
+        <form key={index}>
+
             <div className="form-group">
             <input type="checkbox" id="Mat"/>
             <label htmlFor="Mat"> Bath Mat </label>
@@ -47,6 +53,9 @@ function Category() {
             <label htmlFor="Dispenser"> Soap Dispenser </label>
             </div>
          </form>	
+
+         ))};
+
             </Accordion.Body>
         </Accordion.Item>
     </Accordion>
