@@ -1,0 +1,50 @@
+.Header-top-box{ padding:10px 0; margin:0; }
+.Header-top-box .Searchbox {
+    padding: 0;
+    position: relative;
+    margin-top: 7px;
+}
+.Header-top-box .input{ border:1px solid #d3d3d3;}
+.Header-top-box .input:hover{ border-color:#000;}
+.Header-top-box .search-icon {
+    margin: 0;
+    position: absolute;
+    top:8px;
+    right:11px;
+}
+.Header-top-box .cart-box-flex{ display:flex; justify-content:flex-end;}
+.Header-top-box  .cart-icon{ border:none; background-color:transparent;}
+.Header-top-box .cart-icon {
+    padding: 0;
+    position: relative;
+    font-size: 21px;
+    margin-left:10px;
+}
+.Header-top-box .circle {
+    padding: 0;
+    background: #ccc9c9;
+    border-radius: 10px;
+    width: 15px;
+    height: 16px;
+    display: block;
+    position: absolute;
+    text-align: center;
+    font-size: 11px;
+    line-height: 19px;
+    top: 21px;
+    left: 10px;
+}
+.Header-top-box .circle-cart {
+    padding:0;
+    background:#fa6666;
+    border-radius: 10px;
+    width:15px;
+    height:16px;
+    display: block;
+    position: absolute;
+    text-align: center;
+    font-size:11px;
+    line-height:19px;
+    top:11px;
+    left:10px;
+}

@@ -1,0 +1,11 @@
+.bestsellerbox{ padding:0; margin-top:50px;}
+.bestsellerbox img{ width:100%;}
+.bestsellerbox-carpet{ padding:0; margin-top:50px;}
+.bestsellerbox-carpet .box-product{ padding:0;}
+.bestsellerbox-carpet .imgs-box{ padding:0; margin-top:50px; background:#000;} 
+.bestsellerbox-carpet .box{ text-align:center;}
+.bestsellerbox-carpet .content-box { padding: 0; margin-top:16px; }
+.bestsellerbox-carpet .btn-primary { background: #f7d42e; border:1px solid #f7d42e; color:#000; border-radius:3px; font-size:14px; }
+.bestsellerbox-carpet img{ width:100%; }
+.bestsellerbox-carpet h3{ font-size:14px; }
+.bestsellerbox-carpet h2{ font-size:19px; text-transform:uppercase;}

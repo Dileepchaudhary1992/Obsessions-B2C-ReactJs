@@ -1,0 +1,104 @@
+
+.modal-content-bottom .modal-dialog,
+.modal-content-left .modal-dialog,
+.modal-content-right .modal-dialog,
+.modal-content-top .modal-dialog {
+    margin: 0;
+}
+
+.modal-content-bottom .modal-content,
+.modal-content-bottom .modal-header,
+.modal-content-left .modal-content,
+.modal-content-left .modal-header,
+.modal-content-right .modal-content,
+.modal-content-right .modal-header,
+.modal-content-top .modal-content,
+.modal-content-top .modal-header {
+    border-radius: 0;
+}
+
+.modal-content-left .modal-content,
+.modal-content-left .modal-dialog,
+.modal-content-right .modal-content,
+.modal-content-right .modal-dialog {
+    min-height: 100vh;
+}
+
+.modal-content-left .modal-footer,
+.modal-content-left .modal-header,
+.modal-content-right .modal-footer,
+.modal-content-right .modal-header {
+    flex-shrink: 0;
+}
+
+.modal-content-right {
+    padding-right: 0 !important;
+}
+
+.modal-content-right .modal-dialog {
+    margin-left: auto;
+}
+
+.modal-content-right.fade .modal-dialog {
+    transform: translateX(25px);
+}
+
+.modal-content-right.show .modal-dialog {
+    transform: translateX(0);
+}
+
+.modal-content-left.fade .modal-dialog {
+    transform: translateX(-25px);
+}
+
+.modal-content-left.show .modal-dialog {
+    transform: translateX(0);
+}
+
+.modal-content-bottom,
+.modal-content-top {
+    padding-right: 0 !important;
+}
+
+.modal-content-bottom .modal-dialog,
+.modal-content-top .modal-dialog {
+    position: absolute;
+    height: auto;
+    width: 100%;
+    max-width: 100%;
+}
+
+.modal-content-bottom.show .modal-dialog,
+.modal-content-top.show .modal-dialog {
+    transform: translateY(0) !important;
+}
+
+.modal-content-bottom .modal-dialog {
+    bottom: 0;
+}
+
+.modal-content-bottom.fade .modal-dialog {
+    transform: translateY(25px);
+}
+
+.modal-content-top .modal-dialog {
+    top: 0;
+}
+
+.modal-content-top.fade .modal-dialog {
+    transform: translateY(-25px);
+}
+
+.serachingbox{  width:100%;}
+.serachingbox .input {
+    border: 1px solid #bcbcbc;
+    height: 34px;
+    padding-left: 8px;
+    outline: none;
+    width: 230px;
+    border-radius: 1px;
+}
+.serachingbox .form-control:focus{ box-shadow:none !important;}
+
+
+

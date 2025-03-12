@@ -1,0 +1,279 @@
+h1{ font-size:30px !important;}
+h2{ font-size:25px}
+h3{ font-size:20px ;}
+h4{ font-size:17px;}
+h5{ font-size:15px;}
+h6{ font-size:14px;}
+
+body{ font-family:'Poppins', sans-serif;  font-size:15px; }
+
+.custom-dropdown-btn { font-size:12px; }
+.custom-dropdown-btn .btn-primary{ background:transparent !important;  border:none !important; color:#000;}
+.custom-dropdown-btn .btn-primary:hover{ color:#000;}
+
+/*--------- Login Form ---------*/ 
+
+.loginform {
+  padding:30px 49px;
+  margin: 30px auto;
+  background: #838688;
+  width: 500px;
+  height: auto;
+}
+.loginform h2{ font-size:22px; color:#FFF; font-weight:300; text-align:center; font-family:'roboto';}
+.loginform .form-control{ width:100%;}
+.loginform label{ width:100%; display:block !important;}
+
+
+/*----------- Footer -----------*/
+
+.footer {
+    width: 100%;
+    height: auto;
+    background:#313131;
+    margin:45px auto auto;
+    position: relative;
+    padding-top: 8px;
+    padding-bottom: 2px;
+    background-position: center;
+    padding-top:30px;
+}
+.footer ol, ul{ padding-left: 0 !important;}{ padding-left:0 !important;}
+.footer .dis-none { display:block }
+.footer .m-d-none, .my-account table thead { display:none }
+.footer .icons,
+.footer .icons2 {
+    font-size: 25px;
+    font-weight: 100;
+    display: inline-block;
+    position: absolute;
+    left: 9px
+}
+.footer .icons2 { left: 0 }
+.footer .M00004 { margin-top:-7px }
+.footer .M00005 { margin-top:17px}
+.footer .address { color:#838688; font-size:15px}
+.footer .f-box { padding:0; }
+.footer .f-box ul li{ padding-left:0;}
+.footer .box-content {
+    flex:0 0 100%;
+    max-width:100%;
+    padding:0;
+    display:flex;
+    flex-wrap: wrap
+}
+.footer .email-hov { color: #838688 !important; }
+.footer h1,
+.footer h3,
+.footer h4,
+.footer h5 { font-size: 14px !important; color: #fff !important; padding-bottom: 8px; font-weight: 400}
+.footer h5 { padding-bottom: 2px}
+.footer .footer-box { padding:0 0 0 22px; margin:0; }
+.footer .email,
+.footer h1,
+.footer h3,
+.footer h4,
+.footer h5,
+.footer p { font-size:14px;}
+.footer p {
+    color: #838688;
+    padding-bottom: 2px;
+    font-size: 14px;
+    font-weight: 100
+}
+
+.footer ul.batch-box li,
+.footer ul.batch-box-001 li {
+    list-style: none;
+    padding-bottom: 4px; 
+    padding-left:0;
+}
+
+.footer ul.batch-box li a,
+.footer ul.batch-box-001 li a {
+    color: #838688;
+    font-size: 14px;
+    text-decoration: none
+}
+
+.footer ul.batch-box-001 li {
+    width: 50%;
+    float: left
+}
+
+ul.batch-box-001 li a {
+    width: 50%
+}
+
+.footer .email {
+    color: #fff;
+    border-radius: 0;
+    background: 0 0;
+    width: 100%;
+    padding-bottom: 10px;
+    height: 31px;
+    padding-left: 12px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #37373794 !important
+}
+
+.footer .email:focus {
+    outline: 0
+}
+
+.footer .email::placeholder {
+    color: #939393
+}
+
+.footer .Subcribe-btn {
+    border: none;
+    background: #939393;
+    color: #FFF;
+    height: 36px !important;
+    margin-top: 0 !important;
+    font-size: 13px !important;
+    width: 100%;
+}
+
+.footer .Subcribe-btn:hover {
+    color: #fff;
+    background: #7b2124
+}
+
+.footer .box-card {
+    padding: 0
+}
+
+.footer .box-card-2 {
+    padding: 0 0 0 50px
+}
+
+.footer .col-md-myyy {
+    margin-left: 0
+}
+
+.footer::placeholder {
+    color: #fff
+}
+
+.footer .col-md-myyy01 {
+    width: 20%
+}
+
+.footer .col-md-myyy02 {
+    width: 30%;
+    padding-right: 0
+}
+
+.footer .col-md-myyy066 {
+    margin: 0
+}
+
+.footer .col-md-myyyy {
+    margin-left: 0
+}
+
+.footer .subscribe {
+    padding: 2px 23px
+}
+
+.subscribe-box {
+    display: flex;
+}
+
+.map-mpbuile {
+    margin-top: 23px;
+    display: block;
+}
+
+.map-mpbuile img {
+    border-radius: 2px;
+}
+
+.copyright {
+    padding: 11px 0 7px;
+    background: #252525
+}
+
+.copyright h3,
+.copyright h6,
+.copyright p {
+    font-size: 14px
+}
+
+.copyright h3 {
+    color: #fff;
+    padding-bottom: 8px;
+    font-weight: 400
+}
+
+.copyright h6,
+.copyright p {
+    color: #7e8083
+}
+
+.Social-media {
+    display: flex;
+    justify-content: left
+}
+
+.Social-media a,
+.Social-media a i {
+    transition: transform .5s;
+    font-weight: 100
+}
+
+.Social-media a {
+    display: flex;
+    height: 30px;
+    width: 30px;
+    margin: 0 4px;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    border: 0;
+    border-radius: 2px;
+    background: #454545
+}
+
+.Social-media a i {
+    font-size: 14px;
+    color: #fff
+}
+.Social-media a:hover {
+    background: #ff5100;
+    transition: all .5s ease
+}
+
+/*-----Right Side----*/
+
+.modal.right.fade .modal-dialog {
+    right: -320px;
+    -webkit-transition: opacity 0.3s linear, right 0.3s ease-out;
+       -moz-transition: opacity 0.3s linear, right 0.3s ease-out;
+         -o-transition: opacity 0.3s linear, right 0.3s ease-out;
+            transition: opacity 0.3s linear, right 0.3s ease-out;
+}
+.modal.right.fade.in .modal-dialog { right:0; }
+
+/* ----- MODAL STYLE ----- */
+
+.modal-content { border:none !important; }
+.modal-content .text-custom-15{ font-size:12px;}
+.modal-content .btn-close{ outline:none !important;  font-size:11px; margin:calc(-.5 * 1rem) calc(-.5 * 0rem) calc(-.5 * 0rem) !important; }
+.modal-content .download{ background:transparent; border:none !important;}
+.modal-content .btn-close:focus{ box-shadow:none !important;}
+.modal-header { border-bottom-color: #EEEEEE; background-color: #FAFAFA; justify-content: space-between; }
+.product-Flex { display:flex; background:#faf6f6; padding:3px; margin-bottom:10px; }
+.product-Flex .box-content{ padding:0 10px; }
+.product-Flex .box-img { padding: 5px; background: #f1f1f1; }
+.product-Flex .box-img img{ width:70px;}
+.product-Flex .box-amount{ font-size:11px; color:#000;}
+.product-Flex .text-tiny{ text-align:right; font-size:14px;  margin-bottom:0;}
+.product-Flex .titale-heading{ font-size:11px; margin-bottom:0; }
+.product-Flex .Parasafe{ font-size:10px; margin-bottom:0;}
+.product-Flex .font-size{ font-size:11px;}
+.add-to-cart { padding: 10px; bottom:0; width: 100%; }
+.add-to-cart .add{ width:100%; background:#a93c11; padding:10px; border:none; left:0; display:block; color:#FFF; font-size:14px;   }

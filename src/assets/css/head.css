@@ -1,0 +1,5 @@
+.top-box{ background:rgb(55 55 55); padding:3px;}
+.top-box p{ padding:0; margin:0; font-size:13px; color:#FFF; text-align:center;}
+.top-box .text-center01{ color:#FFF; font-size:14px;}
+.top-box .swiper-button-prev{ display:none !important;}
+.top-box .swiper-button-next, .swiper-rtl .swiper-button-prev{ display:none !important;}
