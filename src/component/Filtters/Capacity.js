@@ -32,7 +32,6 @@ function Capacity() {
             <label htmlFor="discounts3">Metallic</label>
             </div>
           </form>	
-           
              </Accordion.Body>
           </Accordion.Item>
       </Accordion>

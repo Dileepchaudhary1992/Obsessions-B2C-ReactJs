@@ -88,3 +88,17 @@
 .modal-content-top.fade .modal-dialog {
     transform: translateY(-25px);
 }
+
+.serachingbox{  width:100%;}
+.serachingbox .input {
+    border: 1px solid #bcbcbc;
+    height: 34px;
+    padding-left: 8px;
+    outline: none;
+    width: 230px;
+    border-radius: 1px;
+}
+.serachingbox .form-control:focus{ box-shadow:none !important;}
+
+
+

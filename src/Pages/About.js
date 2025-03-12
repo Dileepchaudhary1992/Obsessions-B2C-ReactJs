@@ -1,11 +1,10 @@
 import React from "react";
 import '../assets/css/about.css';
+import PaginationTable from "./PaginationTable";
 
 function About(){
-  
 
  return(
-
       <>
          <section className="about-pages">  
           <div className="container"> 
@@ -26,6 +25,7 @@ function About(){
                  </div>
              </div>
           </section>
+          <PaginationTable></PaginationTable>
 
          
 

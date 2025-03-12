@@ -2,15 +2,17 @@ import logo from '../../assets/images/logo-black.png';
 import Tophead from './Tophead';
 import Modelbox from './Modelbox';
 import "../../assets/css/header.css";
+import { Link } from 'react-router-dom';
+
+
 function Header(Rohan){
-  
 return(
     <>
     <Tophead/>
     <section className="Header-top-box"> 
     <div className="container"> 
      <div className="row"> 
-        <div className="col-md-2 col-3"> <img src={logo}  alt='logo' style={{width: "160px"}}   /> </div>
+        <div className="col-md-2 col-3"><Link to="/"> <img src={logo}  alt='logo' style={{width: "160px"}}   /> </Link> </div>
         <div className="col-md-8 col-6"> 
           <div className='Searchbox'> 
              <input type='searh' className='form-control input' placeholder='Search'/> 

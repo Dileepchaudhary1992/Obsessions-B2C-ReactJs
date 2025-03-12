@@ -4,7 +4,6 @@ const ButtonGroup = () => {
     const handleClick = (index) => {
         setActiveButton(index);
     };
-
     return (
         <div style={{ display: "flex", gap: "10px", marginBottom: "15px" }}>
             {["40x60 cm", "40x90 cm", "40x100 cm"].map((label, index) => (
@@ -20,7 +19,6 @@ const ButtonGroup = () => {
                         backgroundColor: activeButton === index ? "#fd4141" : "lightgray",
                         color: activeButton === index ? "white" : "black",
                         transition: "background-color 0.3s",
-                        
                     }}>
                     {label}
                 </button>

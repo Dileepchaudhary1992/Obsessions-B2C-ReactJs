@@ -2,7 +2,6 @@ import { useState } from 'react';
 import { Carousel, Image } from 'react-bootstrap';
 import product from '../../assets/images/Product/Carpet-1.jpg'
 
-
 const images = [
     { src: product, alt: 'Slide 1' },
     { src: product, alt: 'Slide 2' },
@@ -12,7 +11,6 @@ const images = [
 
 export default function Productgallery() {
     const [index, setIndex] = useState(0);
-
     const handleSelect = (selectedIndex) => {
         setIndex(selectedIndex);
     };

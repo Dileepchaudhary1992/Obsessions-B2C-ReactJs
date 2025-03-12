@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 import '../../assets/css/menu.css';
 import bathimage from '../../assets/images/Bath-Set.jpg'; 
 import carpetimage from '../../assets/images/Carpetimages.jpg';
-
 export default function Menubar(){
  return(
  <> 
@@ -15,12 +14,12 @@ export default function Menubar(){
         <label htmlFor="close-btn" className="btn close-btn">
           <i className="bi bi-x"></i>
         </label>
-        <li><Link to="/">Home</Link> </li>
-        <li><Link to="/about"> About </Link> </li>
-        <li><Link to="/collection"> Collection</Link> </li>
+        {/* <li><Link to="/">Home</Link> </li> */}
+        {/* <li><Link to="/about"> About </Link> </li>
+        <li><Link to="/collection"> Collection</Link> </li> */}
         
         <li>
-          <Link>BATH SET</Link>
+          <Link to="/collection">BATH SET</Link>
           <input type="checkbox" id="showMega" />
           <label htmlFor="showMega" className="mobile-item">
             Mega Menu
@@ -85,9 +84,9 @@ export default function Menubar(){
           </div>
         </li>
         <li>
-          <a href="#" className="desktop-item">
+          <Link to="/collection" className="desktop-item">
           DUSTBINS
-          </a>
+          </Link>
           <input type="checkbox" id="showDrop" />
           <label htmlFor="showDrop" className="mobile-item">
             Dropdown Menu
@@ -113,7 +112,9 @@ export default function Menubar(){
             </li>
           </ul>
         </li>
-        <li>  <a href="#" className="desktop-item"> FLOOR COVERING  </a>
+        <li>  
+        <Link to="/collection" className="desktop-item"> FLOOR COVERING  </Link>
+
         <input type="checkbox" id="showMega" />
           <label htmlFor="showMega" className="mobile-item">
             Mega Menu
@@ -180,9 +181,9 @@ export default function Menubar(){
          </li>
 
         <li>
-          <a href="#" className="desktop-item">
+          <Link to="/collection" className="desktop-item">
           KITCHEN
-          </a>
+          </Link>
           <input type="checkbox" id="showDrop" />
           <label htmlFor="showDrop" className="mobile-item">
             Dropdown Menu
@@ -200,9 +201,9 @@ export default function Menubar(){
           </ul>
         </li>
         <li>
-          <a href="#" className="desktop-item">
+          <Link to="/collection" className="desktop-item">
           ORGANISERS
-          </a>
+          </Link>
           <input type="checkbox" id="showDrop" />
           <label htmlFor="showDrop" className="mobile-item">
             ORGANISERS
@@ -223,9 +224,9 @@ export default function Menubar(){
           </ul>
         </li>
         <li>
-          <a href="#" className="desktop-item">
+          <Link to="/collection" className="desktop-item">
           TABLEWARE
-          </a>
+          </Link>
           <input type="checkbox" id="showMega" />
           <label htmlFor="showMega" className="mobile-item">
             Mega Menu
@@ -291,9 +292,9 @@ export default function Menubar(){
           </div>
         </li>
         <li>
-          <a href="#" className="desktop-item">
+          <Link to="/collection" className="desktop-item">
           YOGA MAT
-          </a>
+          </Link>
           <input type="checkbox" id="showDrop" />
           <label htmlFor="showDrop" className="mobile-item">
             ORGANISERS

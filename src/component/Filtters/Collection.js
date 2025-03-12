@@ -8,7 +8,6 @@ function Collection() {
     const handleToggle = (eventKey) => {
     setActiveKey(activeKey === eventKey ? null : eventKey);
   }
-
   return (
     <div className="single_search_boxed"> 
     <Accordion activeKey={activeKey} onSelect={handleToggle}>
@@ -17,7 +16,6 @@ function Collection() {
         Collection {activeKey === "0" ? <FaMinus /> : <FaPlus />}
         </Accordion.Header>
         <Accordion.Body> 
-
         <form>
             <div className="form-group">
             <input type="checkbox" id="Abby"/>
@@ -32,13 +30,12 @@ function Collection() {
             <label htmlFor="Ahvaz">Ahvaz</label>
             </div>
         </form>	
-          <Morefilter/>
-
-             </Accordion.Body>
+               <Morefilter/>
+            </Accordion.Body>
          </Accordion.Item>
      </Accordion>
-    </div>
 
+    </div>
   );
 }
 export default Collection;

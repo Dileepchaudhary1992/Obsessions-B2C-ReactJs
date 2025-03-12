@@ -7,7 +7,6 @@ import { Pagination, Navigation } from "swiper/modules";
 import http from "../../services/api";
 
 export default function Obsesionlife() {
-
   const [products, setProducts] = useState([]);
   useEffect(() => {
      fetchProducts();
@@ -25,7 +24,7 @@ export default function Obsesionlife() {
  
   return (
 
-    <div className="Newluanch" style={{  padding: " 20px 0 20px 0"}}> 
+  <div className="Newluanch" style={{  padding: " 20px 0 20px 0"}}> 
     <div className="container">
       <div className="row"> 
        <div className="col-md-12">  
@@ -46,8 +45,7 @@ export default function Obsesionlife() {
        >
         {products.map((product) => (
 
-          <SwiperSlide key={product.id} className="text-center mt-3">
-            
+          <SwiperSlide key={product.id} className="text-center mt-3"> 
             <div className="bg-white rounded-lg shadow-md">
                 <div className="product-box">
                  <img src={product.media} alt={product.title} className="w-full h-40 object-cover rounded-lg" />
@@ -60,7 +58,7 @@ export default function Obsesionlife() {
           </SwiperSlide>
         ))}
       </Swiper>
-
+      
     </div>
     </div>
   );

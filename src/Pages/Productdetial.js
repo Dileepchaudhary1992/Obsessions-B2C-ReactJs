@@ -18,6 +18,7 @@ const Productdetial = () => {
     slidesToShow: 1,
     slidesToScroll: 1,
   };
+  
   return (
     <div className="w-full max-w-lg mx-auto">
       <Slider {...settings}>

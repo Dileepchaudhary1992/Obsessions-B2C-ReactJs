@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Form, Row, Col } from "react-bootstrap";
 
-const Filterbox = () => {
+  const Filterbox = () => {
   const [minValue, setMinValue] = useState(10);
   const [maxValue, setMaxValue] = useState(90);
   const min = 0;
